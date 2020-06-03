@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client-app-config
+    profiles: development
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

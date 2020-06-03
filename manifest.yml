@@ -1,0 +1,9 @@
+---
+applications:
+  - name: client-app-config
+    instances: 1
+    memory: 1G
+    services:
+      - config-server1
+    env:
+      SPRING_PROFILES_ACTIVE: development
